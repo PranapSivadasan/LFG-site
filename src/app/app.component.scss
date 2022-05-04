@@ -1,0 +1,15 @@
+.main-page {
+    display: grid;
+    grid-template-rows: -webkit-max-content 1fr;
+    grid-template-rows: max-content 1fr;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.main-container {
+    overflow-y: scroll;
+    position: relative;
+}

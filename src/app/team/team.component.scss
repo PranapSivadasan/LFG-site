@@ -1,3 +1,9 @@
 .team-cards {
     text-align: center;
+
+    &:hover {
+        transform: scale(1.02);
+        transition-duration: 0.5s;
+        box-shadow: 0px 0px 10px;
+    }
 }
