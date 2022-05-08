@@ -36,7 +36,7 @@ class NavigationBarComponent {
     }
 }
 NavigationBarComponent.ɵfac = function NavigationBarComponent_Factory(t) { return new (t || NavigationBarComponent)(); };
-NavigationBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavigationBarComponent, selectors: [["lfg-navigation-bar"]], decls: 25, vars: 0, consts: [[1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light", "sticky-top"], [1, "container-fluid"], ["routerLink", "/", 1, "navbar-brand"], ["src", "assets/logo-METTALIC_BW.png", "alt", "LFG", "width", "75px", "height", "auto"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["routerLinkActive", "active", "routerLink", "/projects", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", "routerLink", "/team", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", "routerLink", "/gallery", 1, "nav-link", "nav-link-text"], ["type", "button", 1, "btn", "btn-outline-dark", "mx-1", 3, "click"], [1, "fa-brands", "fa-behance"], [1, "fa-brands", "fa-discord"], [1, "fa-brands", "fa-instagram"], [1, "fa-brands", "fa-twitter"]], template: function NavigationBarComponent_Template(rf, ctx) { if (rf & 1) {
+NavigationBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavigationBarComponent, selectors: [["lfg-navigation-bar"]], decls: 25, vars: 0, consts: [[1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light", "sticky-top"], [1, "container-fluid"], ["routerLink", "/", 1, "navbar-brand"], ["src", "assets/logo-METTALIC_BW.png", "alt", "LFG", "width", "75px", "height", "auto"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["routerLinkActive", "active", "routerLink", "/projects", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", "routerLink", "/team", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", 1, "nav-link", "nav-link-text", 3, "click"], ["type", "button", 1, "btn", "btn-outline-dark", "mx-1", 3, "click"], [1, "fa-brands", "fa-behance"], [1, "fa-brands", "fa-discord"], [1, "fa-brands", "fa-instagram"], [1, "fa-brands", "fa-twitter"]], template: function NavigationBarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -59,6 +59,7 @@ NavigationBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_a_click_15_listener() { return ctx.openSocials("https://spatial.io/s/LFG-Gallery-1-62778c4a5c8a2e0001d0ded2?share=4779105248392171427"); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Gallery");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -82,7 +83,7 @@ NavigationBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkActive"]], styles: [".nav-link-text[_ngcontent-%COMP%] {\n  font-size: 1.25rem;\n  font-weight: 500;\n  margin-right: 0.75rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2aWdhdGlvbi1iYXIvbmF2aWdhdGlvbi1iYXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EscUJBQUE7QUFDSiIsImZpbGUiOiJzcmMvYXBwL25hdmlnYXRpb24tYmFyL25hdmlnYXRpb24tYmFyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdi1saW5rLXRleHQge1xyXG4gICAgZm9udC1zaXplOiAxLjI1cmVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgIG1hcmdpbi1yaWdodDogMC43NXJlbTtcclxufSJdfQ== */"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkActive"]], styles: [".nav-link-text[_ngcontent-%COMP%] {\n  font-size: 1.25rem;\n  font-weight: 500;\n  margin-right: 0.75rem;\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2aWdhdGlvbi1iYXIvbmF2aWdhdGlvbi1iYXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9uYXZpZ2F0aW9uLWJhci9uYXZpZ2F0aW9uLWJhci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5uYXYtbGluay10ZXh0IHtcclxuICAgIGZvbnQtc2l6ZTogMS4yNXJlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDAuNzVyZW07XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NavigationBarComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -142,9 +143,12 @@ class HomePageComponent {
     constructor() { }
     ngOnInit() {
     }
+    openSocials(url) {
+        window.open(url, '_blank');
+    }
 }
 HomePageComponent.ɵfac = function HomePageComponent_Factory(t) { return new (t || HomePageComponent)(); };
-HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomePageComponent, selectors: [["lfg-home-page"]], decls: 35, vars: 0, consts: [[1, "mb-3", "mt-3", "container"], [1, "row", "g-0"], [1, "col-md-4", "align-self-center"], ["src", "assets/logo-METTALIC_BW.png", "alt", "Logical Friends", 1, "img-fluid", "rounded-start"], [1, "col-md-8"], [1, "card-body"], [1, "card-title"], [1, "card-title", "mb-3"], [1, "card-text"], [1, "row", "text-center", "px-2"], ["src", "assets/COVER-white.gif", "alt", "Projects Banner", "routerLink", "/projects", 1, "banner", "p-0"], ["src", "assets/LOGICAL-FRIENDS-COVER.gif", "alt", "Team Banner", "routerLink", "/team", 1, "banner", "p-0"], ["src", "assets/COVER-white.gif", "alt", "Gallery Banner", "routerLink", "/gallery", 1, "banner", "p-0"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
+HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomePageComponent, selectors: [["lfg-home-page"]], decls: 35, vars: 0, consts: [[1, "mb-3", "mt-3", "container"], [1, "row", "g-0"], [1, "col-md-4", "align-self-center"], ["src", "assets/logo-METTALIC_BW.png", "alt", "Logical Friends", 1, "img-fluid", "rounded-start"], [1, "col-md-8"], [1, "card-body"], [1, "card-title"], [1, "card-title", "mb-3"], [1, "card-text"], [1, "row", "text-center", "px-2"], ["src", "assets/COVER-white.gif", "alt", "Projects Banner", "routerLink", "/projects", 1, "banner", "p-0"], ["src", "assets/LOGICAL-FRIENDS-COVER.gif", "alt", "Team Banner", "routerLink", "/team", 1, "banner", "p-0"], ["src", "assets/COVER-white.gif", "alt", "Gallery Banner", 1, "banner", "p-0", 3, "click"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -195,7 +199,9 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "h3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " Gallery ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomePageComponent_Template_img_click_34_listener() { return ctx.openSocials("https://spatial.io/s/LFG-Gallery-1-62778c4a5c8a2e0001d0ded2?share=4779105248392171427"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLink"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hvbWUtcGFnZS9ob21lLXBhZ2UuY29tcG9uZW50LnNjc3MifQ== */"] });
@@ -339,6 +345,10 @@ const Route = [
     {
         path: 'gallery',
         component: _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_8__["GalleryComponent"]
+    },
+    {
+        path: '**',
+        redirectTo: ''
     }
 ];
 class AppModule {
