@@ -1,0 +1,65 @@
+.homepage-top {
+    background-image: url('/assets/homepage/top_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.title {
+    font-weight: 700;
+    margin: 0;
+    color: #FC8B28;
+}
+
+.motto {
+    font-size: 0.9rem;
+    color: #FC8B28;
+}
+
+.lfg-btn {
+    background: #FC8B28;
+    // background: linear-gradient(270deg, #f78f34, #ff7700);
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+
+    &:hover {
+        background: #FF7700;
+        // background: linear-gradient(90deg, #f78f34, #ff7700);
+    }
+}
+
+.homepage-bottom {
+    background-image: url('/assets/homepage/bottom_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+.homepage {
+    background-color: #1B1B1B;
+}
+
+.team-cards {
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.02);
+        transition-duration: 0.5s;
+        box-shadow: 0px 0px 10px;
+    }
+}
+
+.banner-img {
+    max-width: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.02);
+        transition-duration: 0.5s;
+        box-shadow: 0px 0px 10px wheat;
+    }
+}

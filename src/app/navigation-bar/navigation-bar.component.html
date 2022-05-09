@@ -1,7 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
+<nav id="navigation-bar" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top"
+    [ngClass]="{'transparent': !scrolled}">
+    <div class="container">
         <a class="navbar-brand" routerLink="/">
-            <img src="assets/logo-METTALIC_BW.png" alt="LFG" width="75px" height="auto">
+            <img src="assets/logo/orange_logo.png" alt="LFG" width="75px" height="auto">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,9 +10,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!-- <button type="button" class="btn mx-1" routerLink="/projects">
-                    <span >Projects</span>
-                </button> -->
                 <li class="nav-item">
                     <a class="nav-link nav-link-text" routerLinkActive="active" routerLink="/projects">Project</a>
                 </li>
@@ -22,26 +20,20 @@
                     <a class="nav-link nav-link-text" routerLinkActive="active" 
                     (click)="openSocials('https://spatial.io/s/LFG-Gallery-1-62778c4a5c8a2e0001d0ded2?share=4779105248392171427')">Gallery</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Gallery</a>
-                </li> -->
             </ul>
-            <button type="button" class="btn btn-outline-dark mx-1"
+            <button type="button" class="btn btn-outline-light mx-1"
                 (click)="openSocials('https://www.behance.net/logicalfriends')">
                 <span class="fa-brands fa-behance"></span>
             </button>
-            <button type="button" class="btn btn-outline-dark mx-1"
+            <button type="button" class="btn btn-outline-light mx-1"
                 (click)="openSocials('https://discord.com/invite/rCBTrb2aGJ')">
                 <span class="fa-brands fa-discord"></span>
             </button>
-            <button type="button" class="btn btn-outline-dark mx-1"
+            <button type="button" class="btn btn-outline-light mx-1"
                 (click)="openSocials('https://www.instagram.com/logical__friends')">
                 <span class="fa-brands fa-instagram"></span>
             </button>
-            <button type="button" class="btn btn-outline-dark mx-1"
+            <button type="button" class="btn btn-outline-light mx-1"
                 (click)="openSocials('https://twitter.com/friends_logical')">
                 <span class="fa-brands fa-twitter"></span>
             </button>

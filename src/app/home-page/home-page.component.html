@@ -1,51 +1,108 @@
-<div class="mb-3 mt-3 container">
-    <div class="row g-0">
-        <div class="col-md-4 align-self-center ">
-            <img src="assets/logo-METTALIC_BW.png" class="img-fluid rounded-start" alt="Logical Friends"
-            >
-        </div>
-        <!-- <div class="col-md-2"></div> -->
-        <div class="col-md-8">
-            <div class="card-body">
-                <h3 class="card-title">
-                    Welcome to the <strong>LOGICAL FRIENDS</strong>
-                </h3>
-                <h4 class="card-title mb-3">
-                    By the community for the community.
-                </h4>
-                <p class="card-text">
-                    We the community of artists & collectors believe in the power of standing together.
-                    So in the pursuit of helping fellow artists, Logical Friends have come up with the initiative to
-                    make art both fun & rewarding and not a daily struggle.
-                </p>
-                <p class="card-text">
-                    <b> Our Vision: </b> To help budding & struggling artists on the WazirX NFT Marketplace by creating
-                    a positive & supportive
-                    community, where we empower each other & grow together.
-                </p>
-                <p class="card-text">
-                    This space will also help kickstart the secondary market sales.
-                </p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+<div class="homepage">
+    <section class="homepage-top">
+        <lfg-navigation-bar></lfg-navigation-bar>
+        <div class="mb-3 mt-3 container">
+            <div class="row g-0">
+                <div class="col-md-6 align-self-center mb-5">
+                    <img src="assets/logo/white_logo.png" class="img-fluid rounded-start" alt="Logical Friends"
+                        width="130px">
+                    <div>
+                        <div class="my-3">
+                            <h5 class="m-0"> Welcome to the </h5>
+                            <h2 class="title">LOGICAL FRIENDS</h2>
+                            <p class="motto"> By the community for the community. </p>
+                        </div>
+                        <!-- <h3 class="card-title">
+                            Welcome to the <strong>LOGICAL FRIENDS</strong>
+                        </h3>
+                        <h4 class="card-title mb-3">
+                            By the community for the community.
+                        </h4> -->
+
+                        <div class="mb-5">
+                            <p class="pe-5">
+                                We the community of artists & collectors believe in the power of standing together.
+                                So in the pursuit of helping fellow artists, Logical Friends have come up with the
+                                initiative to make art both fun & rewarding and not a daily struggle.
+                            </p>
+                            <button class="btn lfg-btn">
+                                Learn More
+                            </button>
+                        </div>
+                        <!-- <p class="card-text">
+                            <b> Our Vision: </b> To help budding & struggling artists on the WazirX NFT Marketplace by
+                            creating
+                            a positive & supportive
+                            community, where we empower each other & grow together.
+                        </p>
+                        <p class="card-text">
+                            This space will also help kickstart the secondary market sales.
+                        </p> -->
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+                </div>
+                <!-- <div class="col-md-2"></div> -->
+                <div class="col-md-6 text-center mb-5">
+                    <img src="assets/homepage/lfg_character.png" alt="LFG Sticker" width="300px">
+                </div>
             </div>
+            <!-- <hr />
+            <div class="row text-center px-2">
+                <h3> Projects </h3>
+                <img src="assets/COVER-white.gif" alt="Projects Banner" class="banner p-0"
+                routerLink="/projects">
+            </div>
+            <hr />
+            <div class="row text-center px-2">
+                <h3> Team </h3>
+                <img src="assets/LOGICAL-FRIENDS-COVER.gif" alt="Team Banner" class="banner p-0"
+                routerLink="/team">
+            </div>
+            <hr />
+            <div class="row text-center px-2">
+                <h3> Gallery </h3>
+                <img src="assets/COVER-white.gif" alt="Gallery Banner" class="banner p-0"
+                (click)="openSocials('https://spatial.io/s/LFG-Gallery-1-62778c4a5c8a2e0001d0ded2?share=4779105248392171427')">
+            </div> -->
         </div>
-    </div>
-    <hr />
-    <div class="row text-center px-2">
-        <h3> Projects </h3>
-        <img src="assets/COVER-white.gif" alt="Projects Banner" class="banner p-0"
-        routerLink="/projects">
-    </div>
-    <hr />
-    <div class="row text-center px-2">
-        <h3> Team </h3>
-        <img src="assets/LOGICAL-FRIENDS-COVER.gif" alt="Team Banner" class="banner p-0"
-        routerLink="/team">
-    </div>
-    <hr />
-    <div class="row text-center px-2">
-        <h3> Gallery </h3>
-        <img src="assets/COVER-white.gif" alt="Gallery Banner" class="banner p-0"
-        (click)="openSocials('https://spatial.io/s/LFG-Gallery-1-62778c4a5c8a2e0001d0ded2?share=4779105248392171427')">
-    </div>
+    </section>
+    <section class="homepage-bottom p-0 m-0">
+        <div class="container text-center">
+            <h2 class="title py-3">LETS GET CLOSER!</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 my-2">
+                    <img src="assets/homepage/projects.jpg" alt="Projects"
+                    class="banner-img" routerLink="/projects">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 my-2">
+                    <img src="assets/homepage/team.jpg" alt="Team"
+                    class="banner-img" routerLink="/team">
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 my-2">
+                    <img src="assets/homepage/gallery.jpg" alt="Gallery"
+                    class="banner-img" (click)="openSocials('https://spatial.io/s/LFG-Gallery-1-62778c4a5c8a2e0001d0ded2?share=4779105248392171427')">
+                </div>
+            </div>
+            <!-- <div class="row row-cols-1 row-cols-md-3 g-3 m-2">
+                <div class="col">
+                    <div class="card team-cards">
+                        <img src="assets/joswin.jpeg" class="card-img-top" alt="Joswin">
+                        <div class="card-body">
+                            <h5 class="card-title">PROJECTS</h5>
+                            <p class="card-description">LFG INITIATED PROJECTS AND PLANS</p>
+                            <button type="button" class="btn btn-outline-dark mx-1"
+                            (click)="openSocials('https://www.instagram.com/patho_logical_doctor')">
+                            <span class="fa-brands fa-instagram"></span>
+                        </button>
+                        <button type="button" class="btn btn-outline-dark mx-1"
+                        (click)="openSocials('https://twitter.com/Dr_Patho_logic')">
+                        <span class="fa-brands fa-twitter"></span>
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <lfg-copyrights></lfg-copyrights>
 </div>

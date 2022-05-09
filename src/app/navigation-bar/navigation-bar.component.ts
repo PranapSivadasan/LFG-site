@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'lfg-navigation-bar',
@@ -7,7 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationBarComponent implements OnInit {
 
-  constructor() { }
+  // @ViewChild('navigationbar') navbar: HTMLElement;
+  scrolled: boolean;
+
+  constructor() {
+    this.scrolled = false;
+  }
+
+
+  @HostListener('window:scroll', [])
+  scrollListener(): void {
+    window.scrollY > 30 ? this.scrolled = true : this.scrolled = false;
+  }
+
 
   ngOnInit(): void {
   }

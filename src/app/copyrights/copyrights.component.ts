@@ -12,4 +12,8 @@ export class CopyrightsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openSocials(url: string): void {
+    window.open(url, '_blank');
+  }
+
 }
