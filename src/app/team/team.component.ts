@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import teamJson from '../../assets/data/team.json';
 
 @Component({
   selector: 'lfg-team',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./team.component.scss']
 })
 export class TeamComponent implements OnInit {
+
+  teamData = teamJson;
 
   constructor() { }
 

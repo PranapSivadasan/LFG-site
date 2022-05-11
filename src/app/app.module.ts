@@ -10,6 +10,8 @@ import { TeamComponent } from './team/team.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ProjectComponent } from './project/project.component';
 import { SpotLightArtistsComponent } from './spot-light-artists/spot-light-artists.component';
+import { BeingMeComponent } from './being-me/being-me.component';
+import { FaqComponent } from './faq/faq.component';
 
 const Route: Routes = [
 
@@ -31,6 +33,14 @@ const Route: Routes = [
     component: SpotLightArtistsComponent
   },
   {
+    path: 'beingme',
+    component: BeingMeComponent
+  },
+  {
+    path: 'faq',
+    component: FaqComponent
+  },
+  {
     path: '**',
     redirectTo: ''
   }
@@ -44,7 +54,9 @@ const Route: Routes = [
     TeamComponent,
     GalleryComponent,
     ProjectComponent,
-    SpotLightArtistsComponent
+    SpotLightArtistsComponent,
+    BeingMeComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

@@ -37,7 +37,7 @@ class ProjectComponent {
     }
 }
 ProjectComponent.ɵfac = function ProjectComponent_Factory(t) { return new (t || ProjectComponent)(); };
-ProjectComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectComponent, selectors: [["lfg-project"]], decls: 9, vars: 0, consts: [[1, "projects"], [1, "container"], [1, "row", "text-center"], [1, "col-md-6", "col-12", "my-2"], ["src", "assets/projects/sla.png", "alt", "Spot Light Artist", "routerLink", "/sla", 1, "banner-img"], [1, "col-lg-4", "col-md-6", "col-12", "my-2"], ["src", "assets/projects/bm_fundraiser.png", "alt", "Fundraiser", "routerLink", "/fundraiser", 1, "banner-img"]], template: function ProjectComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectComponent, selectors: [["lfg-project"]], decls: 9, vars: 0, consts: [[1, "projects"], [1, "container", "text-center"], [1, "row", "text-center", "justify-content-center"], [1, "col-lg-4", "col-md-6", "col-12", "my-2"], ["src", "assets/projects/sla.png", "alt", "Spot Light Artist", "routerLink", "/sla", 1, "banner-img"], ["src", "assets/projects/bm_fundraiser.png", "alt", "Fundraiser", "routerLink", "/beingme", 1, "banner-img"]], template: function ProjectComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "lfg-navigation-bar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -45,8 +45,8 @@ ProjectComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -99,7 +99,7 @@ class NavigationBarComponent {
 NavigationBarComponent.ɵfac = function NavigationBarComponent_Factory(t) { return new (t || NavigationBarComponent)(); };
 NavigationBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavigationBarComponent, selectors: [["lfg-navigation-bar"]], hostBindings: function NavigationBarComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scroll", function NavigationBarComponent_scroll_HostBindingHandler() { return ctx.scrollListener(); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
-    } }, inputs: { homepage: "homepage" }, decls: 25, vars: 3, consts: [["id", "navigation-bar", 1, "navbar", "navbar-expand-md", "navbar-dark", "bg-dark", "sticky-top", 3, "ngClass"], [1, "container"], ["routerLink", "/", 1, "navbar-brand"], ["src", "assets/logo/orange_logo.png", "alt", "LFG", "width", "75px", "height", "auto"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["routerLinkActive", "active", "routerLink", "/projects", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", "routerLink", "/team", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", 1, "nav-link", "nav-link-text", 3, "click"], ["type", "button", 1, "btn", "btn-outline-light", "mx-1", 3, "click"], [1, "fa-brands", "fa-behance"], [1, "fa-brands", "fa-discord"], [1, "fa-brands", "fa-instagram"], [1, "fa-brands", "fa-twitter"]], template: function NavigationBarComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { homepage: "homepage" }, decls: 28, vars: 3, consts: [["id", "navigation-bar", 1, "navbar", "navbar-expand-md", "navbar-dark", "bg-dark", "sticky-top", 3, "ngClass"], [1, "container"], ["routerLink", "/", 1, "navbar-brand"], ["src", "assets/logo/orange_logo.png", "alt", "LFG", "width", "75px", "height", "auto"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "me-auto", "mb-2", "mb-lg-0"], [1, "nav-item"], ["routerLinkActive", "active", "routerLink", "/projects", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", "routerLink", "/team", 1, "nav-link", "nav-link-text"], ["routerLinkActive", "active", 1, "nav-link", "nav-link-text", 3, "click"], ["routerLinkActive", "active", "routerLink", "/faq", 1, "nav-link", "nav-link-text"], ["type", "button", 1, "btn", "btn-outline-light", "mx-1", 3, "click"], [1, "fa-brands", "fa-behance"], [1, "fa-brands", "fa-discord"], [1, "fa-brands", "fa-instagram"], [1, "fa-brands", "fa-twitter"]], template: function NavigationBarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -126,22 +126,27 @@ NavigationBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Gallery");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "FAQ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "button", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_17_listener() { return ctx.openSocials("https://www.behance.net/logicalfriends"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "span", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "button", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_19_listener() { return ctx.openSocials("https://discord.com/invite/rCBTrb2aGJ"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "span", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "button", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_21_listener() { return ctx.openSocials("https://www.instagram.com/logical__friends"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "span", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_20_listener() { return ctx.openSocials("https://www.behance.net/logicalfriends"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "span", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "button", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_23_listener() { return ctx.openSocials("https://twitter.com/friends_logical"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "span", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_22_listener() { return ctx.openSocials("https://discord.com/invite/rCBTrb2aGJ"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "span", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_24_listener() { return ctx.openSocials("https://www.instagram.com/logical__friends"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "span", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationBarComponent_Template_button_click_26_listener() { return ctx.openSocials("https://twitter.com/friends_logical"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "span", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -222,7 +227,7 @@ class HomePageComponent {
     }
 }
 HomePageComponent.ɵfac = function HomePageComponent_Factory(t) { return new (t || HomePageComponent)(); };
-HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomePageComponent, selectors: [["lfg-home-page"]], decls: 34, vars: 1, consts: [[1, "homepage"], [1, "homepage-top"], [3, "homepage"], [1, "mb-3", "mt-3", "container"], [1, "row", "g-0"], [1, "col-md-6", "align-self-center", "mb-5"], ["src", "assets/logo/white_logo.png", "alt", "Logical Friends", "width", "130px", 1, "img-fluid", "rounded-start"], [1, "my-3"], [1, "m-0"], [1, "title"], [1, "motto"], [1, "mb-5"], [1, "pe-5"], [1, "btn", "lfg-btn"], [1, "col-md-6", "text-center", "mb-5"], ["src", "assets/homepage/lfg_character.png", "alt", "LFG Sticker", "width", "300px"], [1, "homepage-bottom", "p-0", "m-0"], [1, "container", "text-center"], [1, "title", "py-3"], [1, "row"], [1, "col-lg-4", "col-md-6", "col-12", "my-2"], ["src", "assets/homepage/projects.jpg", "alt", "Projects", "routerLink", "/projects", 1, "banner-img"], ["src", "assets/homepage/team.jpg", "alt", "Team", "routerLink", "/team", 1, "banner-img"], [1, "col-lg-4", "col-md-12", "col-12", "my-2"], ["src", "assets/homepage/gallery.jpg", "alt", "Gallery", 1, "banner-img", 3, "click"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
+HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomePageComponent, selectors: [["lfg-home-page"]], decls: 34, vars: 1, consts: [[1, "homepage"], [1, "homepage-top"], [3, "homepage"], [1, "mb-3", "mt-3", "container"], [1, "row", "g-0"], [1, "col-md-6", "align-self-center", "mb-5"], ["src", "assets/logo/white_logo.png", "alt", "Logical Friends", "width", "130px", 1, "img-fluid", "rounded-start"], [1, "my-3"], [1, "m-0"], [1, "title"], [1, "motto"], [1, "mb-5"], [1, "pe-5"], ["routerLink", "/faq", 1, "btn", "lfg-btn"], [1, "col-md-6", "text-center", "mb-5"], ["src", "assets/homepage/lfg_character.png", "alt", "LFG Sticker", "width", "300px"], [1, "homepage-bottom", "p-0", "m-0"], [1, "container", "text-center"], [1, "title", "py-3"], [1, "row"], [1, "col-lg-4", "col-md-6", "col-12", "my-2"], ["src", "assets/homepage/projects.jpg", "alt", "Projects", "routerLink", "/projects", 1, "banner-img"], ["src", "assets/homepage/team.jpg", "alt", "Team", "routerLink", "/team", 1, "banner-img"], [1, "col-lg-4", "col-md-12", "col-12", "my-2"], ["src", "assets/homepage/gallery.jpg", "alt", "Gallery", 1, "banner-img", 3, "click"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "section", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "lfg-navigation-bar", 2);
@@ -283,7 +288,7 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("homepage", true);
-    } }, directives: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_1__["NavigationBarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLink"], _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_3__["CopyrightsComponent"]], styles: [".homepage-top[_ngcontent-%COMP%] {\n  background-image: url('top_bg.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  color: white;\n  min-height: 60vh;\n}\n\n.title[_ngcontent-%COMP%] {\n  font-weight: 700;\n  margin: 0;\n  color: #FC8B28;\n}\n\n.motto[_ngcontent-%COMP%] {\n  font-size: 0.9rem;\n  color: #FC8B28;\n}\n\n.lfg-btn[_ngcontent-%COMP%] {\n  background: #FC8B28;\n  color: white;\n  border-radius: 20px;\n  font-weight: 600;\n}\n\n.lfg-btn[_ngcontent-%COMP%]:hover {\n  background: #FF7700;\n}\n\n.homepage-bottom[_ngcontent-%COMP%] {\n  background-image: url('bottom_bg.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  color: black;\n  min-height: calc(40vh - 62px);\n  display: flex;\n  align-items: center;\n}\n\n.homepage[_ngcontent-%COMP%] {\n  background-color: #1B1B1B;\n}\n\n.team-cards[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n.team-cards[_ngcontent-%COMP%]:hover {\n  transform: scale(1.02);\n  transition-duration: 0.5s;\n  box-shadow: 0px 0px 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS1wYWdlL2hvbWUtcGFnZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1DQUFBO0VBQ0EsNEJBQUE7RUFDQSwyQkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0FBQ0o7O0FBRUE7RUFDSSxnQkFBQTtFQUNBLFNBQUE7RUFDQSxjQUFBO0FBQ0o7O0FBRUE7RUFDSSxpQkFBQTtFQUNBLGNBQUE7QUFDSjs7QUFFQTtFQUNJLG1CQUFBO0VBRUEsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUFBSjs7QUFFSTtFQUNJLG1CQUFBO0FBQVI7O0FBS0E7RUFDSSxzQ0FBQTtFQUNBLDRCQUFBO0VBQ0EsMkJBQUE7RUFDQSxzQkFBQTtFQUNBLFlBQUE7RUFDQSw2QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQUZKOztBQUtBO0VBQ0kseUJBQUE7QUFGSjs7QUFLQTtFQUNJLGtCQUFBO0FBRko7O0FBSUk7RUFDSSxzQkFBQTtFQUNBLHlCQUFBO0VBQ0Esd0JBQUE7QUFGUiIsImZpbGUiOiJzcmMvYXBwL2hvbWUtcGFnZS9ob21lLXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaG9tZXBhZ2UtdG9wIHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vYXNzZXRzL2hvbWVwYWdlL3RvcF9iZy5qcGcnKTtcclxuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgbWluLWhlaWdodDogNjB2aDtcclxufVxyXG5cclxuLnRpdGxlIHtcclxuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBjb2xvcjogI0ZDOEIyODtcclxufVxyXG5cclxuLm1vdHRvIHtcclxuICAgIGZvbnQtc2l6ZTogMC45cmVtO1xyXG4gICAgY29sb3I6ICNGQzhCMjg7XHJcbn1cclxuXHJcbi5sZmctYnRuIHtcclxuICAgIGJhY2tncm91bmQ6ICNGQzhCMjg7XHJcbiAgICAvLyBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjcwZGVnLCAjZjc4ZjM0LCAjZmY3NzAwKTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG5cclxuICAgICY6aG92ZXIge1xyXG4gICAgICAgIGJhY2tncm91bmQ6ICNGRjc3MDA7XHJcbiAgICAgICAgLy8gYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDkwZGVnLCAjZjc4ZjM0LCAjZmY3NzAwKTtcclxuICAgIH1cclxufVxyXG5cclxuLmhvbWVwYWdlLWJvdHRvbSB7XHJcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uL2Fzc2V0cy9ob21lcGFnZS9ib3R0b21fYmcuanBnJyk7XHJcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIG1pbi1oZWlnaHQ6IGNhbGMoNDB2aCAtIDYycHgpO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5ob21lcGFnZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMUIxQjFCO1xyXG59XHJcblxyXG4udGVhbS1jYXJkcyB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblxyXG4gICAgJjpob3ZlciB7XHJcbiAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxLjAyKTtcclxuICAgICAgICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjVzO1xyXG4gICAgICAgIGJveC1zaGFkb3c6IDBweCAwcHggMTBweDtcclxuICAgIH1cclxufVxyXG4iXX0= */"] });
+    } }, directives: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_1__["NavigationBarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLink"], _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_3__["CopyrightsComponent"]], styles: [".homepage-top[_ngcontent-%COMP%] {\n  background-image: url('top_bg.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  color: white;\n  min-height: 60vh;\n}\n\n.motto[_ngcontent-%COMP%] {\n  font-size: 0.9rem;\n  color: #FC8B28;\n}\n\n.lfg-btn[_ngcontent-%COMP%] {\n  background: #FC8B28;\n  color: white;\n  border-radius: 20px;\n  font-weight: 600;\n}\n\n.lfg-btn[_ngcontent-%COMP%]:hover {\n  background: #FF7700;\n}\n\n.homepage-bottom[_ngcontent-%COMP%] {\n  background-image: url('bottom_bg.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  color: black;\n  min-height: calc(40vh - 62px);\n  display: flex;\n  align-items: center;\n}\n\n.homepage[_ngcontent-%COMP%] {\n  background-color: #1B1B1B;\n}\n\n.team-cards[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n.team-cards[_ngcontent-%COMP%]:hover {\n  transform: scale(1.02);\n  transition-duration: 0.5s;\n  box-shadow: 0px 0px 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS1wYWdlL2hvbWUtcGFnZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1DQUFBO0VBQ0EsNEJBQUE7RUFDQSwyQkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0FBQ0o7O0FBRUE7RUFDSSxpQkFBQTtFQUNBLGNBQUE7QUFDSjs7QUFFQTtFQUNJLG1CQUFBO0VBRUEsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUFBSjs7QUFFSTtFQUNJLG1CQUFBO0FBQVI7O0FBS0E7RUFDSSxzQ0FBQTtFQUNBLDRCQUFBO0VBQ0EsMkJBQUE7RUFDQSxzQkFBQTtFQUNBLFlBQUE7RUFDQSw2QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQUZKOztBQUtBO0VBQ0kseUJBQUE7QUFGSjs7QUFLQTtFQUNJLGtCQUFBO0FBRko7O0FBSUk7RUFDSSxzQkFBQTtFQUNBLHlCQUFBO0VBQ0Esd0JBQUE7QUFGUiIsImZpbGUiOiJzcmMvYXBwL2hvbWUtcGFnZS9ob21lLXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaG9tZXBhZ2UtdG9wIHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vYXNzZXRzL2hvbWVwYWdlL3RvcF9iZy5qcGcnKTtcclxuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgbWluLWhlaWdodDogNjB2aDtcclxufVxyXG5cclxuLm1vdHRvIHtcclxuICAgIGZvbnQtc2l6ZTogMC45cmVtO1xyXG4gICAgY29sb3I6ICNGQzhCMjg7XHJcbn1cclxuXHJcbi5sZmctYnRuIHtcclxuICAgIGJhY2tncm91bmQ6ICNGQzhCMjg7XHJcbiAgICAvLyBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjcwZGVnLCAjZjc4ZjM0LCAjZmY3NzAwKTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG5cclxuICAgICY6aG92ZXIge1xyXG4gICAgICAgIGJhY2tncm91bmQ6ICNGRjc3MDA7XHJcbiAgICAgICAgLy8gYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDkwZGVnLCAjZjc4ZjM0LCAjZmY3NzAwKTtcclxuICAgIH1cclxufVxyXG5cclxuLmhvbWVwYWdlLWJvdHRvbSB7XHJcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uL2Fzc2V0cy9ob21lcGFnZS9ib3R0b21fYmcuanBnJyk7XHJcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIG1pbi1oZWlnaHQ6IGNhbGMoNDB2aCAtIDYycHgpO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5ob21lcGFnZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMUIxQjFCO1xyXG59XHJcblxyXG4udGVhbS1jYXJkcyB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblxyXG4gICAgJjpob3ZlciB7XHJcbiAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxLjAyKTtcclxuICAgICAgICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjVzO1xyXG4gICAgICAgIGJveC1zaGFkb3c6IDBweCAwcHggMTBweDtcclxuICAgIH1cclxufVxyXG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomePageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -402,7 +407,7 @@ class SpotLightArtistsComponent {
     }
 }
 SpotLightArtistsComponent.ɵfac = function SpotLightArtistsComponent_Factory(t) { return new (t || SpotLightArtistsComponent)(); };
-SpotLightArtistsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpotLightArtistsComponent, selectors: [["lfg-spot-light-artists"]], decls: 14, vars: 1, consts: [[1, "sla_bg"], [1, "container", "text-center"], [1, "title", "py-3"], [1, "row", "justify-content-center"], [1, "row", "align-items-center", "justify-content-around", "my-4"], [1, "col-12", "col-md-3", "my-2", "text-center"], ["src", "/assets/projects/sla_sticker.png", "alt", "SLA Sticker", "width", "200px"], [1, "col-12", "col-md-8", "my-2", "text-center", "text-uppercase"], [4, "ngFor", "ngForOf"], [1, "col-md-5", "col-12", "my-2", "d-flex"], [1, "sla", "card", "w-100"], [1, "card-header", "text-center"], [1, "round-image", 3, "src", "alt"], [1, "card-body"], [1, "card-text"], [1, "card-footer"], [1, "text-center"], [1, "btn", 3, "click"]], template: function SpotLightArtistsComponent_Template(rf, ctx) { if (rf & 1) {
+SpotLightArtistsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpotLightArtistsComponent, selectors: [["lfg-spot-light-artists"]], decls: 14, vars: 1, consts: [[1, "sla_bg"], [1, "container", "text-center"], [1, "title", "py-3"], [1, "row", "justify-content-center"], [1, "row", "align-items-center", "justify-content-around", "my-4"], [1, "col-12", "col-md-3", "my-2", "text-center"], ["src", "assets/projects/sla_sticker.png", "alt", "SLA Sticker", "width", "200px"], [1, "col-12", "col-md-8", "my-2", "text-center", "text-uppercase"], [4, "ngFor", "ngForOf"], [1, "col-md-5", "col-12", "my-2", "d-flex"], [1, "sla", "card", "w-100"], [1, "card-header", "text-center"], [1, "round-image", 3, "src", "alt"], [1, "card-body"], [1, "card-text"], [1, "card-footer"], [1, "text-center"], [1, "btn", 3, "click"]], template: function SpotLightArtistsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "lfg-navigation-bar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -428,7 +433,7 @@ SpotLightArtistsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.slaData);
-    } }, directives: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_2__["NavigationBarComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_4__["CopyrightsComponent"]], styles: [".sla_bg[_ngcontent-%COMP%] {\n  background-image: url('sla_bg.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  color: white;\n  min-height: calc(100vh - 83.7px - 62px);\n  display: flex;\n  align-items: center;\n}\n\n.round-image[_ngcontent-%COMP%] {\n  height: 100px;\n  width: 100px;\n  border-radius: 60px;\n}\n\n.work-image[_ngcontent-%COMP%] {\n  height: 150px;\n  width: 150px;\n}\n\n.sla[_ngcontent-%COMP%] {\n  text-align: justify;\n  background-color: #ff6600;\n  color: black;\n}\n\n.sla[_ngcontent-%COMP%]:hover {\n  box-shadow: 0px 0px 10px wheat;\n  transition: 0.5s;\n}\n\n.sla[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  color: black;\n  background: linear-gradient(150deg, #FFFFFF, #b6b3b3);\n  border-radius: 20px;\n  border: none;\n}\n\n.sla[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  background: linear-gradient(300deg, #FFFFFF, #b6b3b3);\n  box-shadow: 5px 5px 10px black;\n  transition: 0.5s;\n  transform: scale(1.02);\n}\n\n.card-header[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  padding-left: 2rem;\n  text-transform: uppercase;\n  display: inline;\n  font-weight: bold;\n  vertical-align: middle;\n  white-space: nowrap;\n}\n\n.title[_ngcontent-%COMP%] {\n  font-weight: 700;\n  margin: 0;\n  color: #FC8B28;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3BvdC1saWdodC1hcnRpc3RzL3Nwb3QtbGlnaHQtYXJ0aXN0cy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1DQUFBO0VBQ0EsNEJBQUE7RUFDQSwyQkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLHVDQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0FBQ0o7O0FBRUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0FBQ0o7O0FBRUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSx5QkFBQTtFQUNBLFlBQUE7QUFDSjs7QUFNSTtFQUNJLDhCQUFBO0VBQ0EsZ0JBQUE7QUFKUjs7QUFRSTtFQUNJLFlBQUE7RUFDQSxxREFBQTtFQUNBLG1CQUFBO0VBQ0EsWUFBQTtBQU5SOztBQVFRO0VBQ0kscURBQUE7RUFDQSw4QkFBQTtFQUNBLGdCQUFBO0VBQ0Esc0JBQUE7QUFOWjs7QUFlSTtFQUNJLGtCQUFBO0VBQ0EseUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxzQkFBQTtFQUNBLG1CQUFBO0FBWlI7O0FBa0JBO0VBQ0ksZ0JBQUE7RUFDQSxTQUFBO0VBQ0EsY0FBQTtBQWZKIiwiZmlsZSI6InNyYy9hcHAvc3BvdC1saWdodC1hcnRpc3RzL3Nwb3QtbGlnaHQtYXJ0aXN0cy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zbGFfYmcge1xyXG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi8uLi9hc3NldHMvcHJvamVjdHMvc2xhX2JnLmpwZycpO1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBtaW4taGVpZ2h0OiBjYWxjKDEwMHZoIC0gODMuN3B4IC0gNjJweCk7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxufVxyXG5cclxuLnJvdW5kLWltYWdlIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiA2MHB4O1xyXG59XHJcblxyXG4ud29yay1pbWFnZSB7XHJcbiAgICBoZWlnaHQ6IDE1MHB4O1xyXG4gICAgd2lkdGg6IDE1MHB4O1xyXG59XHJcblxyXG4uc2xhIHtcclxuICAgIHRleHQtYWxpZ246IGp1c3RpZnk7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmY2NjAwO1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgLy8gLmNhcmQtaGVhZGVyIHtcclxuICAgICAgICAvLyBoNCB7XHJcbiAgICAgICAgLy8gICAgIGRpc3BsYXk6IGlubGluZSAhaW1wb3J0YW50O1xyXG4gICAgICAgIC8vICAgICBwYWRkaW5nOiAyMHB4O1xyXG4gICAgICAgIC8vIH1cclxuICAgIC8vIH1cclxuICAgICY6aG92ZXIge1xyXG4gICAgICAgIGJveC1zaGFkb3c6IDBweCAwcHggMTBweCB3aGVhdDtcclxuICAgICAgICB0cmFuc2l0aW9uOiAwLjVzO1xyXG4gICAgICAgIC8vIGJhY2tncm91bmQtY29sb3I6ICNmODcxMTc7XHJcbiAgICB9XHJcblxyXG4gICAgYnV0dG9uIHtcclxuICAgICAgICBjb2xvcjogYmxhY2s7XHJcbiAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDE1MGRlZywgI0ZGRkZGRiwgI2I2YjNiMyk7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcblxyXG4gICAgICAgICY6aG92ZXIge1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMzAwZGVnLCAjRkZGRkZGLCAjYjZiM2IzKTtcclxuICAgICAgICAgICAgYm94LXNoYWRvdzogNXB4IDVweCAxMHB4IGJsYWNrO1xyXG4gICAgICAgICAgICB0cmFuc2l0aW9uOiAwLjVzO1xyXG4gICAgICAgICAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMDIpO1xyXG4gICAgICAgICAgICAvLyB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kIDFzIGxpbmVyO1xyXG4gICAgICAgICAgICAvLyAtd2Via2l0LXRyYW5zaXRpb246IGJhY2tncm91bmQgMTAwMG1zIGxpbmVhcjtcclxuICAgICAgICAgICAgLy8gLW1zLXRyYW5zaXRpb246IGJhY2tncm91bmQgMTAwMG1zIGxpbmVhcjtcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn1cclxuXHJcbi5jYXJkLWhlYWRlciB7XHJcbiAgICBoMiB7XHJcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAycmVtO1xyXG4gICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lO1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgICAgICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuICAgICAgICBcclxuICAgIH1cclxufVxyXG5cclxuXHJcbi50aXRsZSB7XHJcbiAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgY29sb3I6ICNGQzhCMjg7XHJcbn0iXX0= */"] });
+    } }, directives: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_2__["NavigationBarComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_4__["CopyrightsComponent"]], styles: [".sla_bg[_ngcontent-%COMP%] {\n  background-image: url('sla_bg.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  color: white;\n  min-height: calc(100vh - 83.7px - 62px);\n  display: flex;\n  align-items: center;\n}\n\n.round-image[_ngcontent-%COMP%] {\n  height: 100px;\n  width: 100px;\n  border-radius: 60px;\n}\n\n.work-image[_ngcontent-%COMP%] {\n  height: 150px;\n  width: 150px;\n}\n\n.sla[_ngcontent-%COMP%] {\n  text-align: justify;\n  background-color: #ff6600;\n  color: black;\n}\n\n.sla[_ngcontent-%COMP%]:hover {\n  box-shadow: 0px 0px 10px wheat;\n  transition: 0.5s;\n}\n\n.sla[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  color: black;\n  background: linear-gradient(150deg, #FFFFFF, #b6b3b3);\n  border-radius: 20px;\n  border: none;\n}\n\n.sla[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  background: linear-gradient(300deg, #FFFFFF, #b6b3b3);\n  box-shadow: 5px 5px 10px black;\n  transition: 0.5s;\n  transform: scale(1.02);\n}\n\n.card-header[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  padding-left: 2rem;\n  text-transform: uppercase;\n  display: inline;\n  font-weight: bold;\n  vertical-align: middle;\n  white-space: nowrap;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3BvdC1saWdodC1hcnRpc3RzL3Nwb3QtbGlnaHQtYXJ0aXN0cy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1DQUFBO0VBQ0EsNEJBQUE7RUFDQSwyQkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLHVDQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0FBQ0o7O0FBRUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0FBQ0o7O0FBRUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSx5QkFBQTtFQUNBLFlBQUE7QUFDSjs7QUFNSTtFQUNJLDhCQUFBO0VBQ0EsZ0JBQUE7QUFKUjs7QUFRSTtFQUNJLFlBQUE7RUFDQSxxREFBQTtFQUNBLG1CQUFBO0VBQ0EsWUFBQTtBQU5SOztBQVFRO0VBQ0kscURBQUE7RUFDQSw4QkFBQTtFQUNBLGdCQUFBO0VBQ0Esc0JBQUE7QUFOWjs7QUFlSTtFQUNJLGtCQUFBO0VBQ0EseUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxzQkFBQTtFQUNBLG1CQUFBO0FBWlIiLCJmaWxlIjoic3JjL2FwcC9zcG90LWxpZ2h0LWFydGlzdHMvc3BvdC1saWdodC1hcnRpc3RzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNsYV9iZyB7XHJcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uL2Fzc2V0cy9wcm9qZWN0cy9zbGFfYmcuanBnJyk7XHJcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIG1pbi1oZWlnaHQ6IGNhbGMoMTAwdmggLSA4My43cHggLSA2MnB4KTtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG59XHJcblxyXG4ucm91bmQtaW1hZ2Uge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIHdpZHRoOiAxMDBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDYwcHg7XHJcbn1cclxuXHJcbi53b3JrLWltYWdlIHtcclxuICAgIGhlaWdodDogMTUwcHg7XHJcbiAgICB3aWR0aDogMTUwcHg7XHJcbn1cclxuXHJcbi5zbGEge1xyXG4gICAgdGV4dC1hbGlnbjoganVzdGlmeTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZjY2MDA7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICAvLyAuY2FyZC1oZWFkZXIge1xyXG4gICAgICAgIC8vIGg0IHtcclxuICAgICAgICAvLyAgICAgZGlzcGxheTogaW5saW5lICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgLy8gICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICAgICAgLy8gfVxyXG4gICAgLy8gfVxyXG4gICAgJjpob3ZlciB7XHJcbiAgICAgICAgYm94LXNoYWRvdzogMHB4IDBweCAxMHB4IHdoZWF0O1xyXG4gICAgICAgIHRyYW5zaXRpb246IDAuNXM7XHJcbiAgICAgICAgLy8gYmFja2dyb3VuZC1jb2xvcjogI2Y4NzExNztcclxuICAgIH1cclxuXHJcbiAgICBidXR0b24ge1xyXG4gICAgICAgIGNvbG9yOiBibGFjaztcclxuICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMTUwZGVnLCAjRkZGRkZGLCAjYjZiM2IzKTtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuXHJcbiAgICAgICAgJjpob3ZlciB7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgzMDBkZWcsICNGRkZGRkYsICNiNmIzYjMpO1xyXG4gICAgICAgICAgICBib3gtc2hhZG93OiA1cHggNXB4IDEwcHggYmxhY2s7XHJcbiAgICAgICAgICAgIHRyYW5zaXRpb246IDAuNXM7XHJcbiAgICAgICAgICAgIHRyYW5zZm9ybTogc2NhbGUoMS4wMik7XHJcbiAgICAgICAgICAgIC8vIHRyYW5zaXRpb246IGJhY2tncm91bmQgMXMgbGluZXI7XHJcbiAgICAgICAgICAgIC8vIC13ZWJraXQtdHJhbnNpdGlvbjogYmFja2dyb3VuZCAxMDAwbXMgbGluZWFyO1xyXG4gICAgICAgICAgICAvLyAtbXMtdHJhbnNpdGlvbjogYmFja2dyb3VuZCAxMDAwbXMgbGluZWFyO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufVxyXG5cclxuLmNhcmQtaGVhZGVyIHtcclxuICAgIGgyIHtcclxuICAgICAgICBwYWRkaW5nLWxlZnQ6IDJyZW07XHJcbiAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmU7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICAgICAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG4gICAgICAgIFxyXG4gICAgfVxyXG59XHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SpotLightArtistsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -438,6 +443,17 @@ SpotLightArtistsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
             }]
     }], function () { return []; }, null); })();
 
+
+/***/ }),
+
+/***/ "Ry0A":
+/*!***********************************!*\
+  !*** ./src/assets/data/team.json ***!
+  \***********************************/
+/*! exports provided: 0, 1, 2, 3, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"pfp\":\"assets/team/joswin-web3.jpg\",\"realName\":\"Joswin\",\"web3Name\":\"Patho-logical\",\"designation\":\"Braniac\",\"instagram\":\"https://www.instagram.com/patho_logical_doctor\",\"twitter\":\"https://twitter.com/Dr_Patho_logic\"},{\"pfp\":\"assets/team/kailas-web3.jpg\",\"realName\":\"Kailas Bhat\",\"web3Name\":\"Yellow N Musk\",\"designation\":\"High IQ\",\"instagram\":\"https://www.instagram.com/yellow_n_musk\",\"twitter\":\"https://twitter.com/yellownmusk\"},{\"pfp\":\"assets/team/pranap-web3.jpg\",\"realName\":\"Pranap\",\"web3Name\":\"Vector NFT\",\"designation\":\"High IQ\",\"instagram\":\"https://www.instagram.com/vector_nft_\",\"twitter\":\"https://twitter.com/pranapsivadasan\"},{\"pfp\":\"assets/team/gokul-web3.jpg\",\"realName\":\"Gokul\",\"web3Name\":\"NFT Drive\",\"designation\":\"Braniac\",\"instagram\":\"https://www.instagram.com/the_nft_drive\",\"twitter\":\"https://twitter.com/NFT_drive\"}]");
 
 /***/ }),
 
@@ -500,6 +516,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./gallery/gallery.component */ "Ij5Q");
 /* harmony import */ var _project_project_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./project/project.component */ "6AOp");
 /* harmony import */ var _spot_light_artists_spot_light_artists_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./spot-light-artists/spot-light-artists.component */ "QA0q");
+/* harmony import */ var _being_me_being_me_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./being-me/being-me.component */ "uALl");
+/* harmony import */ var _faq_faq_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./faq/faq.component */ "gN+M");
+
+
 
 
 
@@ -532,6 +552,14 @@ const Route = [
         component: _spot_light_artists_spot_light_artists_component__WEBPACK_IMPORTED_MODULE_10__["SpotLightArtistsComponent"]
     },
     {
+        path: 'beingme',
+        component: _being_me_being_me_component__WEBPACK_IMPORTED_MODULE_11__["BeingMeComponent"]
+    },
+    {
+        path: 'faq',
+        component: _faq_faq_component__WEBPACK_IMPORTED_MODULE_12__["FaqComponent"]
+    },
+    {
         path: '**',
         redirectTo: ''
     }
@@ -550,7 +578,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _team_team_component__WEBPACK_IMPORTED_MODULE_7__["TeamComponent"],
         _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_8__["GalleryComponent"],
         _project_project_component__WEBPACK_IMPORTED_MODULE_9__["ProjectComponent"],
-        _spot_light_artists_spot_light_artists_component__WEBPACK_IMPORTED_MODULE_10__["SpotLightArtistsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"]], exports: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_4__["NavigationBarComponent"]] }); })();
+        _spot_light_artists_spot_light_artists_component__WEBPACK_IMPORTED_MODULE_10__["SpotLightArtistsComponent"],
+        _being_me_being_me_component__WEBPACK_IMPORTED_MODULE_11__["BeingMeComponent"],
+        _faq_faq_component__WEBPACK_IMPORTED_MODULE_12__["FaqComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"]], exports: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_4__["NavigationBarComponent"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -562,7 +592,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _team_team_component__WEBPACK_IMPORTED_MODULE_7__["TeamComponent"],
                     _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_8__["GalleryComponent"],
                     _project_project_component__WEBPACK_IMPORTED_MODULE_9__["ProjectComponent"],
-                    _spot_light_artists_spot_light_artists_component__WEBPACK_IMPORTED_MODULE_10__["SpotLightArtistsComponent"]
+                    _spot_light_artists_spot_light_artists_component__WEBPACK_IMPORTED_MODULE_10__["SpotLightArtistsComponent"],
+                    _being_me_being_me_component__WEBPACK_IMPORTED_MODULE_11__["BeingMeComponent"],
+                    _faq_faq_component__WEBPACK_IMPORTED_MODULE_12__["FaqComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -577,6 +609,42 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 
 /***/ }),
 
+/***/ "gN+M":
+/*!**************************************!*\
+  !*** ./src/app/faq/faq.component.ts ***!
+  \**************************************/
+/*! exports provided: FaqComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FaqComponent", function() { return FaqComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+
+class FaqComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+FaqComponent.ɵfac = function FaqComponent_Factory(t) { return new (t || FaqComponent)(); };
+FaqComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FaqComponent, selectors: [["lfg-faq"]], decls: 2, vars: 0, template: function FaqComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "faq works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZhcS9mYXEuY29tcG9uZW50LnNjc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FaqComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'lfg-faq',
+                templateUrl: './faq.component.html',
+                styleUrls: ['./faq.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "ivlT":
 /*!**********************************!*\
   !*** ./src/assets/data/sla.json ***!
@@ -584,7 +652,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"artistName\":\"Abhishapes\",\"artistPfp\":\"assets/PFP/abhishapes.png\",\"artistWork\":\"assets/artistworks/abhishapes.png\",\"collectionBanner\":\"assets/sla-banners/abhishapes.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Abhishapes\",\"description\":\"LOGIC MUSHROOMS - Inspired by the whole concept of magic Mushrooms. I welcome you to the mystical forests of Logic Mushrooms, where Mushrooms have logically evolved over 3000 years. A secret that was kept hidden by some of the smartest and most logical minds in history. Come experience some magic... Uhhh Uhhh... Logic!!\"},{\"artistName\":\"Frescoarts\",\"artistPfp\":\"assets/PFP/fresco.png\",\"artistWork\":\"assets/artistworks/fresco.png\",\"collectionBanner\":\"assets/sla-banners/fresco.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-FRESCO\",\"description\":\"Strong women are not simply born. They are forged through the challenges of life. With each challenge, they grow mentally & emotionally. They move forward with their head held high & a strength that can not be denied. A woman who has been through the storm and survived.\"},{\"artistName\":\"S M Naveen Raj\",\"artistPfp\":\"assets/PFP/smnaveen.png\",\"artistWork\":\"assets/artistworks/smnaveen.png\",\"collectionBanner\":\"assets/sla-banners/smnaveen.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-S-M-Naveen-Raj\",\"description\":\"META GALA- Everyone is invited to the embodiment of the internet, where instead of viewing content, YOU ARE IN IT !!!\"},{\"artistName\":\"7 Wichitra\",\"artistPfp\":\"assets/PFP/wichitra.png\",\"artistWork\":\"assets/artistworks/wichitra.png\",\"collectionBanner\":\"assets/sla-banners/wichitra.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-7wichitra\",\"description\":\"Hand gestures can help you describe what you’re talking about, both literally and metaphorically. Hand gestures can help you point to people and things in your surroundings. Hand gestures can help you add emphasis and structure when you talk. Hand gestures give clues about your emotional state. These gestures are not always connected to what you’re saying. This is a collection of such hand gestures (EMOTIcON), we leave it to the interpretation of the viewer.\"},{\"artistName\":\"Digi kar art\",\"artistPfp\":\"assets/PFP/digikarart.png\",\"artistWork\":\"assets/artistworks/digikarart.png\",\"collectionBanner\":\"assets/sla-banners/digikarart.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Digi-kar-art\",\"description\":\"ETHNIC HUES OF WOMEN - India is diverse and is home to several communities, each having its own culture and tradition. ‘Ethnic hues’ is a vibrant collection of artworks, representing the vast cultural diversity of India.\"},{\"artistName\":\"Deepakshi\",\"artistPfp\":\"assets/PFP/deepakshi.png\",\"artistWork\":\"assets/artistworks/deepakshi.png\",\"collectionBanner\":\"assets/sla-banners/deepakshi.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Deepakshi\",\"description\":\"Given the lack of proper medical resources, for veterinary care, most exotic animals such as rabbits & birds do not get the required care. Leading to a lot of pain and unfortunate consequences for these innocent souls. During such times, NomNom India - a selfless organization that has stepped up to help - has been helping the families of such lovely animals have been. NomNom India is an NGO aiming to provide better care and nourishment for exotic pets throughout the nation. It's filled with generous volunteers who are working day & night to save lives. In efforts to make sure that these rare mystical beings, who bring joy into our lives, get all the necessary care they require. By owing a ‘NomNom’, you’re donating to NomnomIndia, which will try to ensure that these innocent lives get to enjoy a better life with hope, while also helping fellow struggling artists.\"},{\"artistName\":\"Mystic Mini\",\"artistPfp\":\"assets/PFP/mysticmini.png\",\"artistWork\":\"assets/artistworks/mysticmini.png\",\"collectionBanner\":\"assets/sla-banners/mysticmini.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-MysticMini\",\"description\":\"Indian women in today's day and age are far more aware, decisive, bold, and opinionated than they used to be earlier. There is an increased awareness about the need for women's empowerment, and so many artists, writers, and public figures are advocating for the equality of women. However, I do feel that unless the term 'feminism' is explained and understood for what it is by the masses, this change will remain in the minority. I feel that art can make a difference, and it can bring about change. I love how art can transport you to another place, make you feel, sense, and react. It is both static and fluid, it's absolutely beautiful. I feel so grateful for what I do because it gives me the power to change people's perspectives, tell stories, and express myself. I realized, although dynamic and capable, that women were always shown to be dependent on the men in their lives. Being an Indian woman myself, there was a pressing need for an accurate representation of the characters as aware, vocal, and opinionated.\"},{\"artistName\":\"Arijit Mondal\",\"artistPfp\":\"assets/PFP/arijit.png\",\"artistWork\":\"assets/artistworks/arijit.png\",\"collectionBanner\":\"assets/sla-banners/arijit.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Arijit-Mondal\",\"description\":\"An Exotic collection of Birds & Insects less seen by the naked eye but captured through a lens.\"},{\"artistName\":\"Tejasvita Negi\",\"artistPfp\":\"assets/PFP/tejasvita.png\",\"artistWork\":\"assets/artistworks/tejasvita.png\",\"collectionBanner\":\"assets/sla-banners/tejasvita.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Tejasvita-Negi\",\"description\":\"Deviyan is a collection of Goddesses representing various forms of nature and colours. Their vibrance can be experienced as pfps, prints, and wallpapers on your digital device for personal use. May you be blessed with the spiritual energy each emanates.\"},{\"artistName\":\"Blingo\",\"artistPfp\":\"assets/PFP/blingo.png\",\"artistWork\":\"assets/artistworks/blingo.png\",\"collectionBanner\":\"assets/sla-banners/blingo.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--BLINGO\",\"description\":\"Reality is defined by what you believe\"},{\"artistName\":\"Mehh Studio\",\"artistPfp\":\"assets/PFP/mehhstudio.png\",\"artistWork\":\"assets/artistworks/mehhstudio.png\",\"collectionBanner\":\"assets/sla-banners/mehhstudio.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--theMehh_studio\",\"description\":\"A TRIBE with a vibe. Just because humans are highly evolved we ignore other living species around us. This series tries to showcase the powerful, bold animals in a totally different vibe. If they stood with us, dressed and talked like us, WE HAD NO CHANCE. Mehh gang is not just a project it's a vibe that will take over.\"},{\"artistName\":\"Nishant Singh\",\"artistPfp\":\"assets/PFP/noobmaster.png\",\"artistWork\":\"assets/artistworks/noobmaster.png\",\"collectionBanner\":\"assets/sla-banners/noobmaster.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--Nishant-Singh\",\"description\":\"The Duality of Reality\"},{\"artistName\":\"Shaizy Umar\",\"artistPfp\":\"assets/PFP/shaizy.png\",\"artistWork\":\"assets/artistworks/shaizy.png\",\"collectionBanner\":\"assets/sla-banners/shaizy.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--Shaizy-Umar\",\"description\":\"WOMANIYA - We are women and we have many roles and many phases in our life. Our lives are a series of roles that we perform and we know what struggles we go through every day. We are determined to carry these roles perfectly because we believe that’s what an ideal woman should do. These images might seem like just professions, but there is a lot behind achieving for women.\"},{\"artistName\":\"Veepul Rege\",\"artistPfp\":\"assets/PFP/veepulrege.png\",\"artistWork\":\"assets/artistworks/veepulrege.png\",\"collectionBanner\":\"assets/sla-banners/veepulrege.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Veepul-Rege\",\"description\":\"A collection featuring 3 different series of photography NFTs consisting of 'Travel Series' - Photographs taken during travel at various destinations around India. 'Goa & its coast'- Photographs showing various moods of the Goan coastline. 'Winged Rover'- Bird photographs\"}]");
+module.exports = JSON.parse("[{\"artistName\":\"Abhishapes\",\"artistPfp\":\"assets/PFP/abhishapes.jpg\",\"artistWork\":\"assets/artistworks/abhishapes.png\",\"collectionBanner\":\"assets/sla-banners/abhishapes.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Abhishapes\",\"description\":\"LOGIC MUSHROOMS - Inspired by the whole concept of magic Mushrooms. I welcome you to the mystical forests of Logic Mushrooms, where Mushrooms have logically evolved over 3000 years. A secret that was kept hidden by some of the smartest and most logical minds in history. Come experience some magic... Uhhh Uhhh... Logic!!\"},{\"artistName\":\"Frescoarts\",\"artistPfp\":\"assets/PFP/fresco.jpg\",\"artistWork\":\"assets/artistworks/fresco.png\",\"collectionBanner\":\"assets/sla-banners/fresco.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-FRESCO\",\"description\":\"Strong women are not simply born. They are forged through the challenges of life. With each challenge, they grow mentally & emotionally. They move forward with their head held high & a strength that can not be denied. A woman who has been through the storm and survived.\"},{\"artistName\":\"S M Naveen Raj\",\"artistPfp\":\"assets/PFP/smnaveen.jpg\",\"artistWork\":\"assets/artistworks/smnaveen.png\",\"collectionBanner\":\"assets/sla-banners/smnaveen.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-S-M-Naveen-Raj\",\"description\":\"META GALA- Everyone is invited to the embodiment of the internet, where instead of viewing content, YOU ARE IN IT !!!\"},{\"artistName\":\"7 Wichitra\",\"artistPfp\":\"assets/PFP/wichitra.jpg\",\"artistWork\":\"assets/artistworks/wichitra.png\",\"collectionBanner\":\"assets/sla-banners/wichitra.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-7wichitra\",\"description\":\"Hand gestures can help you describe what you’re talking about, both literally and metaphorically. Hand gestures can help you point to people and things in your surroundings. Hand gestures can help you add emphasis and structure when you talk. Hand gestures give clues about your emotional state. These gestures are not always connected to what you’re saying. This is a collection of such hand gestures (EMOTIcON), we leave it to the interpretation of the viewer.\"},{\"artistName\":\"Digi kar art\",\"artistPfp\":\"assets/PFP/digikarart.jpg\",\"artistWork\":\"assets/artistworks/digikarart.png\",\"collectionBanner\":\"assets/sla-banners/digikarart.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Digi-kar-art\",\"description\":\"ETHNIC HUES OF WOMEN - India is diverse and is home to several communities, each having its own culture and tradition. ‘Ethnic hues’ is a vibrant collection of artworks, representing the vast cultural diversity of India.\"},{\"artistName\":\"Deepakshi\",\"artistPfp\":\"assets/PFP/deepakshi.jpg\",\"artistWork\":\"assets/artistworks/deepakshi.png\",\"collectionBanner\":\"assets/sla-banners/deepakshi.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Deepakshi\",\"description\":\"Given the lack of proper medical resources, for veterinary care, most exotic animals such as rabbits & birds do not get the required care. Leading to a lot of pain and unfortunate consequences for these innocent souls. During such times, NomNom India - a selfless organization that has stepped up to help - has been helping the families of such lovely animals have been. NomNom India is an NGO aiming to provide better care and nourishment for exotic pets throughout the nation. It's filled with generous volunteers who are working day & night to save lives. In efforts to make sure that these rare mystical beings, who bring joy into our lives, get all the necessary care they require. By owing a ‘NomNom’, you’re donating to NomnomIndia, which will try to ensure that these innocent lives get to enjoy a better life with hope, while also helping fellow struggling artists.\"},{\"artistName\":\"Mystic Mini\",\"artistPfp\":\"assets/PFP/mysticmini.jpg\",\"artistWork\":\"assets/artistworks/mysticmini.png\",\"collectionBanner\":\"assets/sla-banners/mysticmini.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-MysticMini\",\"description\":\"Indian women in today's day and age are far more aware, decisive, bold, and opinionated than they used to be earlier. There is an increased awareness about the need for women's empowerment, and so many artists, writers, and public figures are advocating for the equality of women. However, I do feel that unless the term 'feminism' is explained and understood for what it is by the masses, this change will remain in the minority. I feel that art can make a difference, and it can bring about change. I love how art can transport you to another place, make you feel, sense, and react. It is both static and fluid, it's absolutely beautiful. I feel so grateful for what I do because it gives me the power to change people's perspectives, tell stories, and express myself. I realized, although dynamic and capable, that women were always shown to be dependent on the men in their lives. Being an Indian woman myself, there was a pressing need for an accurate representation of the characters as aware, vocal, and opinionated.\"},{\"artistName\":\"Arijit Mondal\",\"artistPfp\":\"assets/PFP/arijit.jpg\",\"artistWork\":\"assets/artistworks/arijit.png\",\"collectionBanner\":\"assets/sla-banners/arijit.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Arijit-Mondal\",\"description\":\"An Exotic collection of Birds & Insects less seen by the naked eye but captured through a lens.\"},{\"artistName\":\"Tejasvita Negi\",\"artistPfp\":\"assets/PFP/tejasvita.jpg\",\"artistWork\":\"assets/artistworks/tejasvita.png\",\"collectionBanner\":\"assets/sla-banners/tejasvita.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Tejasvita-Negi\",\"description\":\"Deviyan is a collection of Goddesses representing various forms of nature and colours. Their vibrance can be experienced as pfps, prints, and wallpapers on your digital device for personal use. May you be blessed with the spiritual energy each emanates.\"},{\"artistName\":\"Blingo\",\"artistPfp\":\"assets/PFP/blingo.jpg\",\"artistWork\":\"assets/artistworks/blingo.png\",\"collectionBanner\":\"assets/sla-banners/blingo.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--BLINGO\",\"description\":\"Reality is defined by what you believe\"},{\"artistName\":\"Mehh Studio\",\"artistPfp\":\"assets/PFP/mehhstudio.jpg\",\"artistWork\":\"assets/artistworks/mehhstudio.png\",\"collectionBanner\":\"assets/sla-banners/mehhstudio.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--theMehh_studio\",\"description\":\"A TRIBE with a vibe. Just because humans are highly evolved we ignore other living species around us. This series tries to showcase the powerful, bold animals in a totally different vibe. If they stood with us, dressed and talked like us, WE HAD NO CHANCE. Mehh gang is not just a project it's a vibe that will take over.\"},{\"artistName\":\"Nishant Singh\",\"artistPfp\":\"assets/PFP/noobmaster.jpg\",\"artistWork\":\"assets/artistworks/noobmaster.png\",\"collectionBanner\":\"assets/sla-banners/noobmaster.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--Nishant-Singh\",\"description\":\"The Duality of Reality\"},{\"artistName\":\"Shaizy Umar\",\"artistPfp\":\"assets/PFP/shaizy.jpg\",\"artistWork\":\"assets/artistworks/shaizy.png\",\"collectionBanner\":\"assets/sla-banners/shaizy.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X--Shaizy-Umar\",\"description\":\"WOMANIYA - We are women and we have many roles and many phases in our life. Our lives are a series of roles that we perform and we know what struggles we go through every day. We are determined to carry these roles perfectly because we believe that’s what an ideal woman should do. These images might seem like just professions, but there is a lot behind achieving for women.\"},{\"artistName\":\"Veepul Rege\",\"artistPfp\":\"assets/PFP/veepulrege.jpg\",\"artistWork\":\"assets/artistworks/veepulrege.png\",\"collectionBanner\":\"assets/sla-banners/veepulrege.png\",\"collectionLink\":\"https://nft.wazirx.org/collection/Logical-Friends-X-Veepul-Rege\",\"description\":\"A collection featuring 3 different series of photography NFTs consisting of 'Travel Series' - Photographs taken during travel at various destinations around India. 'Goa & its coast'- Photographs showing various moods of the Goan coastline. 'Winged Rover'- Bird photographs\"}]");
 
 /***/ }),
 
@@ -599,10 +667,58 @@ module.exports = JSON.parse("[{\"artistName\":\"Abhishapes\",\"artistPfp\":\"ass
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TeamComponent", function() { return TeamComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _assets_data_team_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/data/team.json */ "Ry0A");
+var _assets_data_team_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/data/team.json */ "Ry0A", 1);
+/* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../navigation-bar/navigation-bar.component */ "9k3z");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../copyrights/copyrights.component */ "mnjV");
 
 
+
+
+
+
+function TeamComponent_ng_container_4_Template(rf, ctx) { if (rf & 1) {
+    const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h5", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "button", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_ng_container_4_Template_button_click_8_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const core_r1 = ctx.$implicit; const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.openSocials(core_r1.instagram); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "span", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "strong", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "button", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_ng_container_4_Template_button_click_12_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const core_r1 = ctx.$implicit; const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.openSocials(core_r1.twitter); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "span", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} if (rf & 2) {
+    const core_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", core_r1.pfp, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("alt", core_r1.realName);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](core_r1.realName);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](core_r1.designation);
+} }
 class TeamComponent {
-    constructor() { }
+    constructor() {
+        this.teamData = _assets_data_team_json__WEBPACK_IMPORTED_MODULE_1__;
+    }
     ngOnInit() {
     }
     openSocials(url) {
@@ -610,82 +726,20 @@ class TeamComponent {
     }
 }
 TeamComponent.ɵfac = function TeamComponent_Factory(t) { return new (t || TeamComponent)(); };
-TeamComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TeamComponent, selectors: [["lfg-team"]], decls: 41, vars: 0, consts: [[1, "row", "row-cols-1", "row-cols-md-4", "row-cols-sm-2", "g-4", "m-2"], [1, "col"], [1, "card", "team-cards"], ["src", "assets/joswin.jpeg", "alt", "Joswin", 1, "card-img-top"], [1, "card-body"], [1, "card-title"], ["type", "button", 1, "btn", "btn-outline-dark", "mx-1", 3, "click"], [1, "fa-brands", "fa-instagram"], [1, "fa-brands", "fa-twitter"], ["src", "assets/kailas.jpeg", "alt", "Kailas", 1, "card-img-top"], ["src", "assets/pranap.jpeg", "alt", "Pranap", 1, "card-img-top"], ["src", "assets/gokul.jpeg", "alt", "Gokul", 1, "card-img-top"]], template: function TeamComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h5", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Joswin");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_7_listener() { return ctx.openSocials("https://www.instagram.com/patho_logical_doctor"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "span", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_9_listener() { return ctx.openSocials("https://twitter.com/Dr_Patho_logic"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "span", 8);
+TeamComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TeamComponent, selectors: [["lfg-team"]], decls: 6, vars: 1, consts: [[1, "team"], [1, "container", "text-center"], [1, "row", "row-cols-1", "row-cols-lg-4", "row-cols-sm-2", "g-4", "m-2"], [4, "ngFor", "ngForOf"], [1, "col"], [1, "card", "team-cards"], [1, "card-img-top", 3, "src", "alt"], [1, "card-body", "text-uppercase"], [1, "card-title", "fw-bold"], [1, "row", "justify-content-around"], ["type", "button", 1, "col-2", "btn", "btn-outline-dark", "mx-1", 3, "click"], [1, "fa-brands", "fa-instagram"], [1, "col-6"], [1, "fa-brands", "fa-twitter"]], template: function TeamComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "lfg-navigation-bar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "section", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, TeamComponent_ng_container_4_Template, 14, 4, "ng-container", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "h5", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Kailas");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_17_listener() { return ctx.openSocials("https://www.instagram.com/yellow_n_musk"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "span", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_19_listener() { return ctx.openSocials("https://twitter.com/yellownmusk"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "span", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "h5", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Pranap");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_27_listener() { return ctx.openSocials("https://www.instagram.com/vector_nft_"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "span", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_29_listener() { return ctx.openSocials("https://twitter.com/pranapsivadasan"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "span", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "h5", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Gokul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_37_listener() { return ctx.openSocials("https://www.instagram.com/the_nft_drive"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "span", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TeamComponent_Template_button_click_39_listener() { return ctx.openSocials("https://twitter.com/NFT_drive"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "span", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".team-cards[_ngcontent-%COMP%] {\n  text-align: center;\n}\n.team-cards[_ngcontent-%COMP%]:hover {\n  transform: scale(1.02);\n  transition-duration: 0.5s;\n  box-shadow: 0px 0px 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGVhbS90ZWFtLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7QUFDSjtBQUNJO0VBQ0ksc0JBQUE7RUFDQSx5QkFBQTtFQUNBLHdCQUFBO0FBQ1IiLCJmaWxlIjoic3JjL2FwcC90ZWFtL3RlYW0uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVhbS1jYXJkcyB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblxyXG4gICAgJjpob3ZlciB7XHJcbiAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxLjAyKTtcclxuICAgICAgICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjVzO1xyXG4gICAgICAgIGJveC1zaGFkb3c6IDBweCAwcHggMTBweDtcclxuICAgIH1cclxufSJdfQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "lfg-copyrights");
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.teamData);
+    } }, directives: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_2__["NavigationBarComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_4__["CopyrightsComponent"]], styles: [".team-cards[_ngcontent-%COMP%] {\n  text-align: center;\n}\n.team-cards[_ngcontent-%COMP%]:hover {\n  transform: scale(1.02);\n  transition-duration: 0.5s;\n  box-shadow: 0px 0px 10px wheat;\n}\n.team[_ngcontent-%COMP%] {\n  background-image: url('team_bg.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  color: black;\n  min-height: calc(100vh - 83.7px - 62px);\n  display: flex;\n  align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGVhbS90ZWFtLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7QUFDSjtBQUNJO0VBQ0ksc0JBQUE7RUFDQSx5QkFBQTtFQUNBLDhCQUFBO0FBQ1I7QUFHQTtFQUNJLG9DQUFBO0VBQ0EsNEJBQUE7RUFDQSwyQkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLHVDQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0FBQUoiLCJmaWxlIjoic3JjL2FwcC90ZWFtL3RlYW0uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVhbS1jYXJkcyB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblxyXG4gICAgJjpob3ZlciB7XHJcbiAgICAgICAgdHJhbnNmb3JtOiBzY2FsZSgxLjAyKTtcclxuICAgICAgICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjVzO1xyXG4gICAgICAgIGJveC1zaGFkb3c6IDBweCAwcHggMTBweCB3aGVhdDtcclxuICAgIH1cclxufVxyXG5cclxuLnRlYW0ge1xyXG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi8uLi9hc3NldHMvdGVhbS90ZWFtX2JnLmpwZycpO1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICBtaW4taGVpZ2h0OiBjYWxjKDEwMHZoIC0gODMuN3B4IC0gNjJweCk7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TeamComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -755,6 +809,48 @@ CopyrightsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
                 selector: 'lfg-copyrights',
                 templateUrl: './copyrights.component.html',
                 styleUrls: ['./copyrights.component.scss']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "uALl":
+/*!************************************************!*\
+  !*** ./src/app/being-me/being-me.component.ts ***!
+  \************************************************/
+/*! exports provided: BeingMeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BeingMeComponent", function() { return BeingMeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../navigation-bar/navigation-bar.component */ "9k3z");
+/* harmony import */ var _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../copyrights/copyrights.component */ "mnjV");
+
+
+
+
+class BeingMeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+BeingMeComponent.ɵfac = function BeingMeComponent_Factory(t) { return new (t || BeingMeComponent)(); };
+BeingMeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BeingMeComponent, selectors: [["lfg-being-me"]], decls: 4, vars: 0, consts: [["src", "assets/projects/beingme.jpg", "alt", "Roadmap", "width", "100%"]], template: function BeingMeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "lfg-navigation-bar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "section");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "lfg-copyrights");
+    } }, directives: [_navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_1__["NavigationBarComponent"], _copyrights_copyrights_component__WEBPACK_IMPORTED_MODULE_2__["CopyrightsComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2JlaW5nLW1lL2JlaW5nLW1lLmNvbXBvbmVudC5zY3NzIn0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BeingMeComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'lfg-being-me',
+                templateUrl: './being-me.component.html',
+                styleUrls: ['./being-me.component.scss']
             }]
     }], function () { return []; }, null); })();
 
