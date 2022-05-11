@@ -4,6 +4,7 @@
     background-position: center;
     background-size: cover;
     color: white;
+    min-height: 60vh;
 }
 
 .title {
@@ -36,6 +37,9 @@
     background-position: center;
     background-size: cover;
     color: black;
+    min-height: calc(40vh - 62px);
+    display: flex;
+    align-items: center;
 }
 
 .homepage {
@@ -49,17 +53,5 @@
         transform: scale(1.02);
         transition-duration: 0.5s;
         box-shadow: 0px 0px 10px;
-    }
-}
-
-.banner-img {
-    max-width: 300px;
-    border-radius: 25px;
-    cursor: pointer;
-
-    &:hover {
-        transform: scale(1.02);
-        transition-duration: 0.5s;
-        box-shadow: 0px 0px 10px wheat;
     }
 }

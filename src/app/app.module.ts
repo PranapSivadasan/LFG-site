@@ -8,6 +8,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { CopyrightsComponent } from './copyrights/copyrights.component';
 import { TeamComponent } from './team/team.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ProjectComponent } from './project/project.component';
+import { SpotLightArtistsComponent } from './spot-light-artists/spot-light-artists.component';
 
 const Route: Routes = [
 
@@ -17,15 +19,16 @@ const Route: Routes = [
   },
   {
     path: 'projects',
-    loadChildren: () => import('./projects/projects.module').then(m => m.ProjectsModule)
+    component: ProjectComponent
+    // loadChildren: () => import('./projects/projects.module').then(m => m.ProjectsModule)
   },
   {
     path: 'team',
     component: TeamComponent
   },
   {
-    path: 'gallery',
-    component: GalleryComponent
+    path: 'sla',
+    component: SpotLightArtistsComponent
   },
   {
     path: '**',
@@ -39,7 +42,9 @@ const Route: Routes = [
     NavigationBarComponent,
     CopyrightsComponent,
     TeamComponent,
-    GalleryComponent
+    GalleryComponent,
+    ProjectComponent,
+    SpotLightArtistsComponent
   ],
   imports: [
     BrowserModule,

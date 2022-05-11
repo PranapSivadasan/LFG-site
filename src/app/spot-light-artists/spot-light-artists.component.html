@@ -1,0 +1,64 @@
+<lfg-navigation-bar></lfg-navigation-bar>
+<section class="sla_bg">
+    <div class="container text-center">
+        <h2 class="title py-3">SPOTLIGHT ARTISITS</h2>
+        <div class="row justify-content-center">
+            <div class="row align-items-center justify-content-around my-4">
+                <div class="col-12 col-md-3 my-2 text-center">
+                    <img src="/assets/projects/sla_sticker.png" alt="SLA Sticker" width="200px">
+                </div>
+                <div class="col-12 col-md-8 my-2 text-center text-uppercase">
+                    <p>
+                        LFG initiate the spotlight artist project to help building & struggling artists
+                        on the WazirX NFT Marketplace by creating a positive and supportive community,
+                        where we empower each other and grow together
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="col-md-6 col-12 my-2">
+                <img src="assets/projects/sla.png" alt="Spot Light Artist" class="banner-img"
+                    routerLink="/sla">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 my-2">
+                <img src="assets/projects/bm_fundraiser.png" alt="Fundraiser" class="banner-img"
+                    routerLink="/fundraiser">
+            </div> -->
+
+            <ng-container *ngFor="let artist of slaData">
+                <div class="col-md-5 col-12 my-2 d-flex">
+                    <div class="sla card w-100">
+                        <div class="card-header text-center">
+                            <!-- <div class="col-12"> -->
+                            <img src={{artist.artistPfp}} alt={{artist.artistName}} class="round-image">
+                            <h2>{{artist.artistName}}</h2>
+                            <!-- </div> -->
+                            <!-- <div class="col-6">
+                                <img src={{artist.artistPfp}} alt={{artist.artistName}} class="work-image">
+                            </div> -->
+
+                        </div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Special title treatment</h5> -->
+                            <p class="card-text">
+                                {{artist.description}}
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <div class="card-footer">
+
+                            <div class="text-center ">
+                                <button class="btn" (click)="openCollection(artist.collectionLink)">
+                                    WazirX NFT Profile
+                                </button>
+                                <!-- <img src={{artist.collectionBanner}} alt={{artist.artistName}} width="400px" class="banner"
+                          (click)="openCollection(artist.collectionLink)"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+
+        </div>
+    </div>
+</section>
+<lfg-copyrights></lfg-copyrights>

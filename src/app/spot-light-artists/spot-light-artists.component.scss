@@ -1,0 +1,74 @@
+.sla_bg {
+    background-image: url('../../assets/projects/sla_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    min-height: calc(100vh - 83.7px - 62px);
+    display: flex;
+    align-items: center;
+}
+
+.round-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+
+.work-image {
+    height: 150px;
+    width: 150px;
+}
+
+.sla {
+    text-align: justify;
+    background-color: #ff6600;
+    color: black;
+    // .card-header {
+        // h4 {
+        //     display: inline !important;
+        //     padding: 20px;
+        // }
+    // }
+    &:hover {
+        box-shadow: 0px 0px 10px wheat;
+        transition: 0.5s;
+        // background-color: #f87117;
+    }
+
+    button {
+        color: black;
+        background: linear-gradient(150deg, #FFFFFF, #b6b3b3);
+        border-radius: 20px;
+        border: none;
+
+        &:hover {
+            background: linear-gradient(300deg, #FFFFFF, #b6b3b3);
+            box-shadow: 5px 5px 10px black;
+            transition: 0.5s;
+            transform: scale(1.02);
+            // transition: background 1s liner;
+            // -webkit-transition: background 1000ms linear;
+            // -ms-transition: background 1000ms linear;
+        }
+    }
+}
+
+.card-header {
+    h2 {
+        padding-left: 2rem;
+        text-transform: uppercase;
+        display: inline;
+        font-weight: bold;
+        vertical-align: middle;
+        white-space: nowrap;
+        
+    }
+}
+
+
+.title {
+    font-weight: 700;
+    margin: 0;
+    color: #FC8B28;
+}

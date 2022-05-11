@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, Input, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'lfg-navigation-bar',
@@ -7,6 +7,7 @@ import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular
 })
 export class NavigationBarComponent implements OnInit {
 
+  @Input() homepage: boolean;
   // @ViewChild('navigationbar') navbar: HTMLElement;
   scrolled: boolean;
 

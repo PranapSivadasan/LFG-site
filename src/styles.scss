@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Poppins', sans-serif !important;
+    background-color: #1F1F1F !important;
 }
 
 .banner {
@@ -17,5 +18,17 @@ body {
         box-shadow: 0px 0px 15px;
         transform: scale(1.01);
         transition: 0.5s;
+    }
+}
+
+.banner-img {
+    max-width: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.02);
+        transition-duration: 0.5s;
+        box-shadow: 0px 0px 10px wheat;
     }
 }
