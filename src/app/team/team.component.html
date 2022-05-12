@@ -7,14 +7,20 @@
                 <div class="col">
                     <div class="card team-cards">
                         <img src={{core.pfp}} class="card-img-top" alt={{core.realName}}>
-                        <div class="card-body text-uppercase">
-                            <h5 class="card-title fw-bold">{{core.realName}}</h5>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-uppercase">{{core.realName}}</h5>
                             <div class="row justify-content-around">
                                 <button type="button" class="col-2 btn btn-outline-dark mx-1"
                                     (click)="openSocials(core.instagram)">
                                     <span class="fa-brands fa-instagram"></span>
                                 </button>
-                                <strong class="col-6">{{core.designation}}</strong>
+                                <small class="col-7">
+                                    <strong>
+                                        {{core.designation1}}<br>
+                                        {{core.designation2}}
+                                    </strong>
+                                </small>
+                                <!-- <strong class="col-6">{{core.designation2}}</strong> -->
                                 <button type="button" class="col-2 btn btn-outline-dark mx-1"
                                     (click)="openSocials(core.twitter)">
                                     <span class="fa-brands fa-twitter"></span>

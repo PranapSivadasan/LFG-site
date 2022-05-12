@@ -10,11 +10,15 @@ export class NavigationBarComponent implements OnInit {
   @Input() homepage: boolean;
   // @ViewChild('navigationbar') navbar: HTMLElement;
   scrolled: boolean;
-
+  wrxSrc: string;
   constructor() {
     this.scrolled = false;
+    this.wrxSrc = 'assets/wrx-white.png';
   }
 
+  mouseEventOnWrxBtn(flag): void {
+    this.wrxSrc = flag ? 'assets/wrx-black.png' : 'assets/wrx-white.png';
+  }
 
   @HostListener('window:scroll', [])
   scrollListener(): void {

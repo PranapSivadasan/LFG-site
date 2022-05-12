@@ -3,7 +3,8 @@
         "pfp": "assets/team/joswin-web3.jpg",
         "realName": "Joswin",
         "web3Name": "Patho-logical",
-        "designation": "Braniac",
+        "designation1": "Founder",
+        "designation2": "BRAINiac",
         "instagram": "https://www.instagram.com/patho_logical_doctor",
         "twitter": "https://twitter.com/Dr_Patho_logic"
     },
@@ -11,7 +12,8 @@
         "pfp": "assets/team/kailas-web3.jpg",
         "realName": "Kailas Bhat",
         "web3Name": "Yellow N Musk",
-        "designation": "High IQ",
+        "designation1": "Co-Founder",
+        "designation2": "eCOnoMICAL",
         "instagram": "https://www.instagram.com/yellow_n_musk",
         "twitter": "https://twitter.com/yellownmusk"
     },
@@ -19,7 +21,8 @@
         "pfp": "assets/team/pranap-web3.jpg",
         "realName": "Pranap",
         "web3Name": "Vector NFT",
-        "designation": "High IQ",
+        "designation1": "Co-Founder",
+        "designation2": "mADvertiser",
         "instagram": "https://www.instagram.com/vector_nft_",
         "twitter": "https://twitter.com/pranapsivadasan"
     },
@@ -27,7 +30,8 @@
         "pfp": "assets/team/gokul-web3.jpg",
         "realName": "Gokul",
         "web3Name": "NFT Drive",
-        "designation": "Braniac",
+        "designation1": "Co-Founder",
+        "designation2": "CREATive",
         "instagram": "https://www.instagram.com/the_nft_drive",
         "twitter": "https://twitter.com/NFT_drive"
     }
