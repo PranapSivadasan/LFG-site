@@ -34,5 +34,50 @@
         "designation2": "CREATive",
         "instagram": "https://www.instagram.com/the_nft_drive",
         "twitter": "https://twitter.com/NFT_drive"
+    },
+    {
+        "pfp": "assets/team/Sunny-web3.jpg",
+        "realName": "Sunny Dagar",
+        "web3Name": "Sunny_Dagar03",
+        "designation1": "Community Moderator",
+        "designation2": "NONE",
+        "instagram": "https://www.instagram.com/sunny_dagar03",
+        "twitter": "https://twitter.com/sunny_dagar03"
+    },
+    {
+        "pfp": "assets/team/Aryan-web3.jpg",
+        "realName": "Aryan",
+        "web3Name": "Noteee",
+        "designation1": "Community Moderator",
+        "designation2": "NONE",
+        "instagram": "https://www.instagram.com/notelabs.nft",
+        "twitter": "https://twitter.com/NoteLabs_nft"
+    },
+    {
+        "pfp": "assets/team/Asna-web3.jpg",
+        "realName": "Asna Rehman",
+        "web3Name": "Asna Rehman",
+        "designation1": "Social Media Manager",
+        "designation2": "NONE",
+        "instagram": "https://www.instagram.com/asna.r__",
+        "twitter": "https://twitter.com/AsnaRehman_eth"
+    },
+    {
+        "pfp": "assets/team/Rohit-web3.jpg",
+        "realName": "Rohit Nandwani",
+        "web3Name": "That NFT Guy",
+        "designation1": "Social Media Manager",
+        "designation2": "NONE",
+        "instagram": "https://www.instagram.com/r_nandwani",
+        "twitter": "https://twitter.com/NandwaniRohit"
+    },
+    {
+        "pfp": "assets/team/Pankaj-web3.jpg",
+        "realName": "Pankaj Bathija",
+        "web3Name": "That NFT Guy",
+        "designation1": "Social Media Manager",
+        "designation2": "NONE",
+        "instagram": "https://www.instagram.com/bathija.pankaj",
+        "twitter": "https://twitter.com/PankajBathija1"
     }
 ]
