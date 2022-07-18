@@ -12,6 +12,7 @@ import { ProjectComponent } from './project/project.component';
 import { SpotLightArtistsComponent } from './spot-light-artists/spot-light-artists.component';
 import { BeingMeComponent } from './being-me/being-me.component';
 import { FaqComponent } from './faq/faq.component';
+import { MintNowPopupComponent } from './mint-now-popup/mint-now-popup.component';
 
 const Route: Routes = [
 
@@ -56,7 +57,8 @@ const Route: Routes = [
     ProjectComponent,
     SpotLightArtistsComponent,
     BeingMeComponent,
-    FaqComponent
+    FaqComponent,
+    MintNowPopupComponent
   ],
   imports: [
     BrowserModule,

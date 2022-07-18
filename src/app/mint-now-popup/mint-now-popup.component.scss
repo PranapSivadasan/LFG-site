@@ -1,0 +1,74 @@
+
+.mint-popup {
+    height: 18rem;
+    position: fixed;
+    bottom: 3rem;
+    left: 3rem;
+    color: black;
+    z-index: 2;
+    animation: slide-l-r 1.5s ease-in;
+
+    .popup-close {
+        position: relative;
+        top: 1.75rem;
+        background: transparent;
+        left: 8rem;
+        border: none;
+    }
+
+    .mint-popup-top {
+        height: 70%;
+
+        img {
+            height: -webkit-fill-available;
+        }
+    }
+
+    .mint-popup-bottom {
+        height: 30%;
+        background-color: #FC8B28;
+
+        .heading {
+            background: white;
+            color: purple;
+            font-size: 1.25rem;
+            border-radius: 0.5rem;
+            padding: 0 0.5rem;
+            position: relative;
+            bottom: 0.5rem;
+        }
+
+        .text {
+            font-size: 0.9rem;
+            padding-bottom: 0.25rem;
+        }
+
+        .mint-button {
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            padding: 0.25rem 1rem;
+            background: linear-gradient(161deg, #fddb1b, yellow);
+            color: black;
+            border: none;
+            width: fit-content;
+            margin-bottom: 1rem;
+
+            &:hover {
+                background: linear-gradient(304deg, #fddb1b, yellow);
+                box-shadow: 5px 5px 10px black;
+                transition: 0.5s;
+                transform: scale(1.02);
+                animation: none;
+            }
+        }
+    }
+}
+
+@keyframes slide-l-r {
+    0% {
+        left: -20rem;
+    }
+    100% {
+        left: 3rem;
+    }
+}
